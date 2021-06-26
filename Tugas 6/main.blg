@@ -1,0 +1,61 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
+Reallocating 'name_of_file' (item size: 1) to 10 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Database file #1: referensi.bib
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
+Warning--empty journal in arnomoanalisis
+Warning--empty year in arnomoanalisis
+
+Done.
+You've used 3 entries,
+            4087 wiz_defined-function locations,
+            836 strings with 7718 characters,
+and the built_in function-call counts, 1544 in all, are:
+= -- 123
+> -- 17
+< -- 9
++ -- 9
+- -- 3
+* -- 81
+:= -- 283
+add.period$ -- 6
+call.type$ -- 3
+change.case$ -- 3
+chr.to.int$ -- 15
+cite$ -- 5
+duplicate$ -- 122
+empty$ -- 122
+format.name$ -- 3
+if$ -- 328
+int.to.chr$ -- 0
+int.to.str$ -- 3
+missing$ -- 19
+newline$ -- 32
+num.names$ -- 3
+pop$ -- 42
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 2
+skip$ -- 114
+stack$ -- 0
+substring$ -- 41
+swap$ -- 81
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 5
+type$ -- 3
+warning$ -- 2
+while$ -- 8
+width$ -- 4
+write$ -- 48
+(There were 2 warnings)
