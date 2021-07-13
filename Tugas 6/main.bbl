@@ -21,11 +21,6 @@
 \providecommand{\BIBdecl}{\relax}
 \BIBdecl
 
-\bibitem{puspitasari2014analisis}
-N.~F. Puspitasari, ``Analisis rssi (receive signal strength indicator) terhadap
-  ketinggian perangkat wi-fi di lingkungan indoor,'' \emph{Data Manajemen Dan
-  Teknologi Informasi (DASI)}, vol.~15, no.~4, p.~32, 2014.
-
 \bibitem{yudianto2014jaringan}
 M.~J.~N. Yudianto, ``Jaringan komputer dan pengertiannya,'' \emph{Ilmukomputer.
   Com}, pp. 1--10, 2014.
@@ -33,5 +28,10 @@ M.~J.~N. Yudianto, ``Jaringan komputer dan pengertiannya,'' \emph{Ilmukomputer.
 \bibitem{arnomoanalisis}
 S.~A. Arnomo, ``Analisis kualitas penerimaan sinyal usb wifi eksternal
   berdasarkan ketinggian dan jarak akses point.''
+
+\bibitem{puspitasari2014analisis}
+N.~F. Puspitasari, ``Analisis rssi (receive signal strength indicator) terhadap
+  ketinggian perangkat wi-fi di lingkungan indoor,'' \emph{Data Manajemen Dan
+  Teknologi Informasi (DASI)}, vol.~15, no.~4, p.~32, 2014.
 
 \end{thebibliography}

@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  25 JUN 2021 06:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.6.18)  13 JUL 2021 18:11
 entering extended mode
-**"c:/Users/ian/Documents/GitHub/projectjarkom/Tugas 6/main.tex"
-(c:/Users/ian/Documents/GitHub/projectjarkom/Tugas 6/main.tex
+**"c:/Users/ian/Documents/GitHub/Jaringan-komputer/Tugas 6/main.tex"
+(c:/Users/ian/Documents/GitHub/Jaringan-komputer/Tugas 6/main.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01> (C:\Program Files\MiKTeX\tex/latex/ieeetran\IEEEtran.cls
 Document Class: IEEEtran 2015/08/26 V1.8b by Michael Shell
@@ -181,64 +181,100 @@ LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <11> not available
 <./picture//1.png, id=1, 596.2275pt x 293.095pt>
 File: ./picture//1.png Graphic file (type png)
 <use ./picture//1.png>
-Package pdftex.def Info: ./picture//1.png  used on input line 55.
+Package pdftex.def Info: ./picture//1.png  used on input line 57.
 (pdftex.def)             Requested size: 206.39685pt x 101.46223pt.
 
-Underfull \hbox (badness 3291) in paragraph at lines 59--64
+Underfull \hbox (badness 3291) in paragraph at lines 61--66
 \OT1/ptm/m/n/10 Fi meru-pakan jaringan nirk-a-bel yang di-gu-nakan un-tuk
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 70.
+(Font)              <7> on input line 72.
 [1{C:/Users/ian/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 
  <./picture//1.png>]
-<./picture//2.png, id=15, 1202.99437pt x 653.44125pt>
+<./picture//denah-iteba.png, id=15, 793.96625pt x 553.06625pt>
+File: ./picture//denah-iteba.png Graphic file (type png)
+<use ./picture//denah-iteba.png>
+Package pdftex.def Info: ./picture//denah-iteba.png  used on input line 118.
+(pdftex.def)             Requested size: 258.0pt x 179.71909pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 118--119
+ [][] 
+ []
+
+
+Underfull \hbox (badness 1661) in paragraph at lines 122--125
+[]\OT1/ptm/m/n/10 dari de-nah terse-but kami meli-hat be-ber-apa ran-can-gan
+ []
+
+<./picture//router-iteba.png, id=16, 800.9925pt x 825.0825pt>
+File: ./picture//router-iteba.png Graphic file (type png)
+<use ./picture//router-iteba.png>
+Package pdftex.def Info: ./picture//router-iteba.png  used on input line 128.
+(pdftex.def)             Requested size: 258.0pt x 265.75659pt.
+
+Overfull \hbox (6.0pt too wide) in paragraph at lines 128--129
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./picture//2.png, id=17, 1202.99437pt x 653.44125pt>
 File: ./picture//2.png Graphic file (type png)
 <use ./picture//2.png>
-Package pdftex.def Info: ./picture//2.png  used on input line 116.
+Package pdftex.def Info: ./picture//2.png  used on input line 134.
 (pdftex.def)             Requested size: 258.0pt x 140.13815pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 116--117
+Overfull \hbox (6.0pt too wide) in paragraph at lines 134--135
  [][] 
  []
 
-<./picture//3.jpg, id=16, 602.25pt x 220.825pt>
+<./picture//3.jpg, id=18, 602.25pt x 220.825pt>
 File: ./picture//3.jpg Graphic file (type jpg)
 <use ./picture//3.jpg>
-Package pdftex.def Info: ./picture//3.jpg  used on input line 125.
+Package pdftex.def Info: ./picture//3.jpg  used on input line 143.
 (pdftex.def)             Requested size: 258.0pt x 94.60246pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 125--126
+Overfull \hbox (6.0pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-<./picture//4.png, id=17, 1202.24156pt x 657.95813pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./picture//denah-iteba.png> <./picture//router-iteba.png> <./picture//2.png>]
+<./picture//4.png, id=25, 1202.24156pt x 657.95813pt>
 File: ./picture//4.png Graphic file (type png)
 <use ./picture//4.png>
-Package pdftex.def Info: ./picture//4.png  used on input line 137.
+Package pdftex.def Info: ./picture//4.png  used on input line 155.
 (pdftex.def)             Requested size: 258.0pt x 141.1972pt.
 
-Overfull \hbox (6.0pt too wide) in paragraph at lines 137--138
+Overfull \hbox (6.0pt too wide) in paragraph at lines 155--156
  [][] 
  []
 
-<./picture//5.png, id=18, 311.66437pt x 388.45125pt>
+<./picture//persamaan-rssi.png, id=26, 191.21437pt x 25.59563pt>
+File: ./picture//persamaan-rssi.png Graphic file (type png)
+<use ./picture//persamaan-rssi.png>
+Package pdftex.def Info: ./picture//persamaan-rssi.png  used on input line 166.
+(pdftex.def)             Requested size: 206.39685pt x 27.62918pt.
+<./picture//5.png, id=27, 311.66437pt x 388.45125pt>
 File: ./picture//5.png Graphic file (type png)
 <use ./picture//5.png>
-Package pdftex.def Info: ./picture//5.png  used on input line 153.
+Package pdftex.def Info: ./picture//5.png  used on input line 221.
 (pdftex.def)             Requested size: 103.19843pt x 128.622pt.
-
-Underfull \vbox (badness 1603) has occurred while \output is active []
-
- [2 <./picture//2.png> <./picture//3.jpg> <./picture//4.png> <./picture//5.png>]
-<./picture//6.png, id=25, 307.90031pt x 398.99063pt>
+<./picture//6.png, id=28, 307.90031pt x 398.99063pt>
 File: ./picture//6.png Graphic file (type png)
 <use ./picture//6.png>
-Package pdftex.def Info: ./picture//6.png  used on input line 166.
+Package pdftex.def Info: ./picture//6.png  used on input line 232.
 (pdftex.def)             Requested size: 103.19843pt x 133.72508pt.
- (main.bbl)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[3 <./picture//3.jpg> <./picture//4.png> <./picture//persamaan-rssi.png> <./picture//5.png>] (main.bbl)
 
 ** Conference Paper **
 Before submitting the final camera ready copy, remember to:
@@ -250,21 +286,21 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the appropriate paper size.
 
-[3
+[4
 
  <./picture//6.png>] (main.aux) ) 
 Here is how much of TeX's memory you used:
- 2141 strings out of 478864
- 37177 string characters out of 2858523
- 346232 words of memory out of 3000000
- 20075 multiletter control sequences out of 15000+600000
- 438315 words of font info for 87 fonts, out of 8000000 for 9000
+ 2170 strings out of 478864
+ 37967 string characters out of 2858523
+ 346240 words of memory out of 3000000
+ 20098 multiletter control sequences out of 15000+600000
+ 442242 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,12n,66p,469b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 404875 bytes).
+ 57i,12n,66p,473b,340s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 505523 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
+ 74 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 46 words of extra memory for PDF output out of 10000 (max. 10000000)
 

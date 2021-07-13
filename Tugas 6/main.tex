@@ -22,9 +22,11 @@ Email: \{\IEEEauthorrefmark{1}1922009, \IEEEauthorrefmark{2}1922001\}@student.it
 
 % ABSTRAK %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{abstract}
-    Analisa Wireless atau jaringan nirkabel menggunakan aplikasi InSSIDer ,
+    Implementasi jaringan wireless (atau umum disebut sebagai jaringan WiFi) telah diatur oleh standar
+IEEE 802.11. Jaringan WiFi digunakan untuk menghubungkan berbagai perangkat dan berbagi data.
+    Analisis Wireless atau jaringan nirkabel menggunakan aplikasi InSSIDer ,
     Mengumpulkan Informasi yang ada pada jaringan Wireless sekitar dan mengambil data 
-    untuk dianalisa .
+    untuk dianalisis .
 \end{abstract}
 
 % kata kunci %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -45,7 +47,7 @@ perkembangan Wireless ini sangat pesat sekali,karena flexible tanpa menggunakan 
 , namun dari pernyataan tersebut Wireless juga banyak kelebihan dan kekurangan nya . 
 Sebelumnya dianggap bahwa jaringan kabel lebih cepat dan lebih aman daripada jaringan nirkabel.
 Namun peningkatan berkelanjutan pada teknologi jaringan nirkabel seperti standar jaringan Wireless
- telah membuat banyak perbedaan kecepatan dan keamanan antara jaringan kabel dan nirkabel tersebut~.\cite{puspitasari2014analisis}
+ telah membuat banyak perbedaan kecepatan dan keamanan antara jaringan kabel dan nirkabel tersebut~.
 
 \section{Penjelasan}
 \subsection{Pengenalan Wireless Network}
@@ -107,10 +109,26 @@ InSSIDer adalah software yang digunakan untuk memindai dan mengcapture jaringan 
 Kelebihan dari inSSIDer ini yaitu melacak area hotspot lebih dari kemampuan wireless card PC atau laptop dan juga menampilkan secara real time grafik amplitudo dari access point sehingga dapat diketahui kualitas dan kekuatan sinyal Wi-Fi tersebut. Namun inSSIDer ini juga memiliki kekurangan yaitu bahwa inSSIDer ini tidak bisa menampilkan IP address mana saja yang sedang terhubung dengan access point.
 
 
-\section{Analisa Jaringan Wireless}
-Pada sesi ini dijelaskan analisa jaringan yang ada di kampus Institut Teknologi Batam , ini merupakan analisa dari mahasiswa
-pada hotspot wireless yang ada disekitar kampus . 
+\section{analisis Jaringan Wireless}
+Pada sesi ini dijelaskan analisis jaringan yang ada di kampus Institut Teknologi Batam , ini merupakan analisis dari mahasiswa
+pada hotspot wireless yang ada disekitar kampus . berikut ini merupakan denah lokasi yang ada pada institut teknologi Batam :
 
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{denah-iteba.png}
+    \caption{Denah Lokasi ITEBA}
+\end{figure}
+
+dari denah tersebut kami melihat beberapa rancangan topologi yang digunakan pada kampus Institut Teknologi Batam dengan menyambung banyak repeater yang 
+ada pada setiap ruangan . karena terkendalanya akses pada sistem jaringan yang digunakan pada kampus institut teknologi batam , maka kami hanya dapat memberikan 
+informasi yang terlihat/fakta dilapanagan . berikut ini merupakan gambar bagian repeater yang saling terhubung pada jaringan wireless yang ada di kampus institut teknologi Batam:
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.5\textwidth]{router-iteba.png}
+    \caption{Topologi Jaringan ITEBA}
+\end{figure}
+\vspace{5cm}
 \begin{figure}[h]
     \centering
     \includegraphics[width=0.5\textwidth]{2.png}
@@ -138,12 +156,62 @@ Dosen Iteba , Terlihat dari channel yang digunakan sama dan bahkan pada saat di 
     \caption{Grade sinyal wifi}
 \end{figure}
 
+\section{Analisis Hasil Pengukuran RSSI (Receive
+Signal Strength Indicator)}
+\subsection{Hasil Pengukuran dengan menggunakan persamaan}
+Berikut ini perhitungan menggunakan persamaan RSSI pada jaringan wireless yang ada disekitar kampus iteba terhadap pengahalang
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.4\textwidth]{persamaan-rssi.png}
+    \caption{persamaan RSSI}
+\end{figure}
+
+\begin{table}[htbp]
+    \caption{Table Analisis Pengukuran RSSI}
+    \begin{center}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+    \textbf{Nomor} & \textbf{\textit{Tinggi}}& \textbf{\textit{Receiver}}& \textbf{\textit{Rata-rata sinyal penerima}} \\
+    \hline
+    1 & 150cm& 25 Receiver & -53.87 dbm  \\
+    \hline
+    2 & 200cm& 25 Receiver & -59.87 dbm  \\
+    \hline
+    \multicolumn{4}{l}{$^{\mathrm{a}}$Hasil dari dana InSSIDer}
+    \end{tabular}
+    \label{tab1}
+    \end{center}
+    \end{table}
+
+\subsection{Pengaruh Besar nya Kekuatan sinyal}
+Kekuatan sinyal RSSI yang diterima oleh
+receiver tidak hanya bergantung pada jarak
+antara transmitter dan receiver, akan tetapi
+menunjukkan variasi yang besar terhadap fading
+dan shadowing pada sebuah lokasi. Hal ini
+terlihat pada tempat penelitian yang kondisi
+lingkungannya memiliki banyak property seperti
+didalam ruangan terdapat sekat, lemari, meja dan
+property lainnya, sehingga akan terjadi peredaman sinyal, pembelokan sinyal dan pemantulan
+sinyal yang mengakibatkan penurunan kuat
+sinyal yang dipancarkan oleh transmiter kepada
+receiver, walaupun jarak antara transmiter dan
+receiver cukup dekat, namun terhalang oleh
+adanya property disekitarnya, maka kekuatan
+sinyalnya akan menurun dan kemungkinan
+kekuatan sinyal nya akan sama dengan kekuatan
+sinyal pada jarak antara transmiter dan receiver
+yang cukup jauh, namun tidak memiliki
+penghalang disekitarnya~. \cite{puspitasari2014analisis}
+
+
 
 
 \section{Hasil dan Pembahasan}
 
-Dari hasi analisa jaringan wireless yang dilakukan pada lingkungan kampus
-institut teknologi batam yaitu pada saat kami berjalan menuju lantai 2 di area kampus iteba , jaringan akan berpindah
+Dari hasi analisis jaringan wireless yang dilakukan pada lingkungan kampus
+institut teknologi batam menggunakan alat usb wireless penerima sinyal TP-LINK TL-WN722N yaitu pada saat kami berjalan menuju lantai 2 di area kampus iteba , jaringan akan berpindah
 ke akses point terdekat dengan SSID yang sama , karena penggunaaan repeater yang ada dikampus yang menyebabkan apabila terjadi permasalahan
 pada pusat jaringan atau Router Utama maka akan terjadi lost koneksi pada setiap semua repeater yang ada .
 disini kami juga mencoba kecepatan internet pada SSID Iteba Student menggunakan aplikasi SpeedTest By Ookla
@@ -153,8 +221,6 @@ disini kami juga mencoba kecepatan internet pada SSID Iteba Student menggunakan 
     \includegraphics[width=0.2\textwidth]{5.png}
     \caption{SpeedTest Jaringan Internet}
 \end{figure}
-
-\vspace{5cm}
 
 
 pada gambar diatas dapat dilihat kecepatan internet yang di dapat untuk Download hanya mencapai 2,19 Mbps Sedangkan untuk upload  yang
